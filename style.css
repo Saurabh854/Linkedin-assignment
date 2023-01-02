@@ -1,0 +1,328 @@
+body {
+    height: 100vh;
+    background-color: white;
+    margin: 0px 25px 250px;
+}
+
+.background-image {
+    background-image: url("https://media.licdn.com/dms/image/C4D12AQHMPBvE3avWzg/article-inline_image-shrink_1000_1488/0/1616872522462?e=1677110400&v=beta&t=4HGdsfpPbWQ8tzmSgNgVoKFZpr1CH8qtXidDu8N9gk0");
+    /* background-attachment: fixed; */
+    height: 200px;
+    min-width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+header {
+
+    background-color: rgb(33, 118, 182);
+    opacity: 1;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    margin: 0;
+    position: fixed;
+    top: 0px;
+}
+
+
+
+header img {
+    width: 40px;
+    height: 40px;
+    outline: 2px solid white;
+    border-radius: 20%;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+
+.profile-image {
+    background-image: url("https://pbs.twimg.com/profile_images/1485050791488483328/UNJ05AV8_400x400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background-size: contain; */
+
+    border-radius: 50%;
+
+    outline: 5px white solid;
+
+    height: 150px;
+    width: 150px;
+
+    position: absolute;
+
+    left: 50px;
+    top: 125px;
+    margin-left: 35px;
+}
+
+input {
+    position: absolute;
+    padding: 7px 7px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    top: 7px;
+    left: 65px;
+    /* min-width: none; */
+    background-color: white;
+    margin-top: 5px;
+    width: 50%;
+    outline: 2px solid white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.icons {
+    float: right;
+    display: inline;
+    /* border: 3px solid white; */
+    margin-right: 55px;
+    margin-top: 10px;
+
+}
+
+.icons>i {
+    color: white;
+    margin: 7px;
+    font-size: 25px;
+    row-gap: 35px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content>.leftpanel {
+    min-width: 300px;
+    min-height: 800px;
+    background-color: rgb(221, 228, 234);
+    border: 3px solid rgb(164, 149, 149);
+    border-radius: 25px;
+}
+
+.leftpanel>h1 {
+    margin-top: 85px;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    font-size: xx-large;
+}
+
+.leftpanel>h2 {
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    font-size: large;
+}
+
+.content>.rightpanel {
+    min-width: 300px;
+    min-height: 800px;
+    border: 4px solid white;
+    background-color: white;
+}
+
+.content>.middlepanel {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 600px;
+    min-height: 800px;
+    background-color: rgb(221, 228, 234);
+    border: 3px solid rgb(164, 149, 149);
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content>.middlepanel>.searchmain {
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    position: relative;
+}
+
+.content>.middlepanel>.searchmain>i {
+    justify-content: space-evenly;
+    padding: 50px;
+    padding-top: 60px;
+    padding-inline-end: 55px;
+}
+
+.content>.middlepanel>.searchmain>input {
+    min-width: 80%;
+    height: 40px;
+    background-color: white;
+    margin-left: 40px;
+
+}
+
+
+.recentactivity>ul>li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+#imgpr {
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+
+
+
+
+}
+
+.rightpanel>.linkedinews {
+    border: 2px solid white;
+    height: 340px;
+    position: relative;
+    background-color: rgb(221, 228, 234);
+    border: 3px solid rgb(164, 149, 149);
+    border-radius: 25px;
+}
+
+.rightpanel>.linkedinews>h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+.rightpanel>.linkedinews>#notification {
+    position: absolute;
+    right: 12px;
+    top: 25px;
+
+
+}
+
+.rightpanel>.linkedinews>ul>li {
+    text-align: center;
+    padding-bottom: 14px;
+    padding-left: 1px;
+    font-size: large;
+
+}
+
+.rightpanel>.profilesuggestion {
+    margin-top: 55px;
+    border: 3px solid rgb(164, 149, 149);
+    height: 400px;
+    position: relative;
+    border-radius: 25px;
+    background-color: rgb(221, 228, 234);
+
+}
+
+.rightpanel>.profilesuggestion>h1 {
+    text-align: center;
+
+}
+
+.rightpanel>.profilesuggestion>i {
+    position: absolute;
+    top: 25px;
+    right: 12px;
+}
+
+.rightpanel>.profilesuggestion>div>img {
+    position: absolute;
+    border-radius: 100%;
+    width: 65px;
+    margin-left: 20px;
+
+}
+
+.rightpanel>.profilesuggestion>div>span {
+    font-weight: 900;
+    margin-left: 105px;
+    font-size: large;
+}
+
+.rightpanel>.profilesuggestion>div>p {
+    margin-left: 105px;
+    color: rgb(81, 77, 77);
+}
+
+.middlepanel>.post {
+    height: 600px;
+    background-color: rgb(221, 228, 234);
+    border: 3px solid rgb(164, 149, 149);
+    border-radius: 25px;
+
+}
+
+.middlepanel>.post>.postcontent>#myntra {
+    height: 50px;
+    width: 50px;
+    margin: 15px 15px;
+    border-radius: 100%;
+    position: relative;
+
+
+}
+
+.middlepanel>.post>.postcontent>span {
+
+    position: absolute;
+    margin-top: 20px;
+    font-weight: 900;
+    width: fit-content;
+    font-size: larger;
+
+
+}
+
+.middlepanel>.post>.postcontent>p {
+
+    color: rgb(78, 83, 88);
+
+    width: fit-content;
+    font-size: small;
+    margin-left: 80px;
+    margin-top: -35px;
+
+
+}
+
+.middlepanel>.post>.postcontent>#imgpost {
+
+    display: flex;
+    flex-grow: 1;
+    min-width: 700px;
+    font-size: small;
+    margin-left: 10px;
+    margin-top: 0px;
+    border: 2px solid white;
+    height: 400px;
+    background-size: cover;
+    margin-right: 10px;
+
+
+}
+
+.middlepanel>.post>.postcontent>.iconpost {
+
+    display: flex;
+    border: 2px solid white;
+    height: 50px;
+    justify-content: space-around;
+
+
+}
+
+.middlepanel>.post>.postcontent>.iconpost>.fa {
+    font-size: larger;
+    margin-top: 10px;
+    color: rgb(85, 74, 74);
+}
